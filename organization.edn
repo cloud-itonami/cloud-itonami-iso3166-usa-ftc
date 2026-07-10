@@ -1,3 +1,12 @@
 ;; Real-world organization location / contact.
 ;; :head-role is institutional title only — no personal names.
-{:contact-page "official site + OSM/Wikidata", :ooyake-id "gov.usa.ftc", :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)", :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored", :official-url "https://www.justice.gov/atr", :head-role "Chair of the Federal Trade Commission", :hq {:line-en "US DOJ Antitrust Division, 950 Pennsylvania Avenue NW, Washington DC", :country "usa", :kind "headquarters", :provenance "official site + OSM/Wikidata", :last-verified "2026-06-04", :sourcing "authoritative"}, :wikidata "Q7889730", :name-en "United States Department of Justice Antitrust Division"}
+{:ooyake-id "gov.usa.ftc"
+  :official-url "https://www.justice.gov/atr"
+  :name-en "United States Department of Justice Antitrust Division"
+  :wikidata "Q7889730"
+  :head-role "Chair of the Federal Trade Commission"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "official site + OSM/Wikidata"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+  :hq {:line-en "US DOJ Antitrust Division, 950 Pennsylvania Avenue NW, Washington DC" :country "usa" :kind "headquarters" :provenance "official site + OSM/Wikidata" :last-verified "2026-06-04" :sourcing "authoritative"}
+}
