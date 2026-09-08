@@ -5,7 +5,7 @@
   diffing every `:statute/verified-label` and re-confirming every recorded
   absence -- is `tools/verify_citations.cljs`, which is what actually proves
   the citations are not fabricated."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is testing]]
             [statute.facts :as facts]))
 
