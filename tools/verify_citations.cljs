@@ -29,7 +29,7 @@
 ;; Exit codes are three-valued on purpose: 0 verified, 1 drifted/mismatched,
 ;; 2 could-not-answer (network/API down). 2 must never be read as a pass.
 (ns verify-citations
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def catalog-file "src/statute/facts.cljc")
 
