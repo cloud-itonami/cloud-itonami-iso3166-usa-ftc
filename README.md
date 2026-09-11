@@ -46,8 +46,8 @@ down and re-checked rather than left as an omission.
 ## Verifying the citations yourself
 
 ```bash
-nbb tools/verify_citations.cljk   # live: re-fetches the official eCFR API
-clojure -M:test                   # offline: shape and provenance conformance
+kbb --backend sci tools/verify_citations.cljk   # live: re-fetches the official eCFR API
+kbb -M:test                   # offline: shape and provenance conformance
 ```
 
 The live gate re-fetches the eCFR versioner API and asserts both directions:
