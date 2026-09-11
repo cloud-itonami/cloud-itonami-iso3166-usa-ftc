@@ -3,7 +3,7 @@
   network: it pins the shape and provenance rules that make the catalog
   trustworthy. The complementary *live* check -- re-fetching the eCFR API,
   diffing every `:statute/verified-label` and re-confirming every recorded
-  absence -- is `tools/verify_citations.cljs`, which is what actually proves
+  absence -- is `tools/verify_citations.cljk`, which is what actually proves
   the citations are not fabricated."
   (:require [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is testing]]

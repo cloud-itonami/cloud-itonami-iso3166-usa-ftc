@@ -13,7 +13,7 @@
   stable unit that was independently confirmed. Nothing here is fabricated:
   each `:statute/verified-label` below is the byte-exact `label_description`
   returned by the eCFR versioner API on `:statute/verified-at`, and
-  `tools/verify_citations.cljs` re-fetches that API and fails if any label
+  `tools/verify_citations.cljk` re-fetches that API and fails if any label
   drifts.
 
   Why the citation and the verification URL differ. `:statute/url` is the
@@ -289,7 +289,7 @@
 (def absences
   "Checked NEGATIVES. Each is a fact an operator would otherwise have to
   discover by failing to find something, and each is re-verified by
-  `tools/verify_citations.cljs` so that it turns red if it ever stops being
+  `tools/verify_citations.cljk` so that it turns red if it ever stops being
   true.
 
   `:absence/assertion` is machine-checkable: no chapter of the named CFR

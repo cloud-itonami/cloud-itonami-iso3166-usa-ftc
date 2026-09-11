@@ -19,7 +19,7 @@ navigating **Federal Trade Commission**-specific public-procurement / regulatory
 
 ## Spec-basis
 
-`src/statute/facts.cljc` is this leaf's citation catalog: **17 FTC regulations**
+`src/statute/facts.cljk` is this leaf's citation catalog: **17 FTC regulations**
 plus **1 checked absence**, each confirmed against the official eCFR versioner
 API on 2026-08-19.
 
@@ -46,7 +46,7 @@ down and re-checked rather than left as an omission.
 ## Verifying the citations yourself
 
 ```bash
-nbb tools/verify_citations.cljs   # live: re-fetches the official eCFR API
+nbb tools/verify_citations.cljk   # live: re-fetches the official eCFR API
 clojure -M:test                   # offline: shape and provenance conformance
 ```
 
