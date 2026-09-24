@@ -6,7 +6,7 @@
   absence -- is `tools/verify_citations.cljk`, which is what actually proves
   the citations are not fabricated."
   (:require [kotoba.lang.text :as str]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [statute.facts :as facts]))
 
 (def ^:private entries (facts/spec-basis "USA-FTC"))
